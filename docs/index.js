@@ -1,14 +1,14 @@
 const cardObjectDefinitions = [    
-        {id:1, imagePath:'/src/card-KingHearts.png'},
-        {id:2, imagePath:'/src/card-JackClubs.png'},
-        {id:3, imagePath:'/src/card-QueenDiamonds.png'},
-        {id:4, imagePath:'/src/card-AceSpades.png'},
+        {id:1, imagePath:'./src/card-KingHearts.png'},
+        {id:2, imagePath:'./src/card-JackClubs.png'},
+        {id:3, imagePath:'./src/card-QueenDiamonds.png'},
+        {id:4, imagePath:'./src/card-AceSpades.png'},
 ]
 //based on the id from the card array
 const AceId = 4;
 
 //creating a variable to store the image source
-const cardBackImgPath = '/src/card-back-blue.png'
+const cardBackImgPath = './src/card-back-blue.png'
 
 const cardContainerElem = document.querySelector('.card-container')
 
